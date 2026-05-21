@@ -329,7 +329,7 @@ else:
         st.info("👈 Sol taraftan senaryoyu kurup 'Hedefi ve Gelecek Yoğunluğu Tahmin Et' butonuna bas kanka!")
 
 st.markdown("---")
-with st.expander("🛠️ MetroMüdavimi Proje Tanıtımı & Veri Metodolojisi (Genişletmek için tıklayın)"):
+with st.expander("🛠️ MetroMeter Proje Tanıtımı & Veri Metodolojisi (Genişletmek için tıklayın)"):
     col_t1, col_t2 = st.columns(2)
     with col_t1:
         st.markdown("""
