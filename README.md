@@ -1,5 +1,8 @@
 # 🔮 MetroMeter: Akıllı İstasyon Yoğunluk & Yolcu Rota Analiz Merkezi
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_svg.svg)](https://metrometer.streamlit.app/)
+🚀 **Canlı Uygulamayı Deneyin:** [metrometer.streamlit.app](https://metrometer.streamlit.app/)
+
 **MetroMeter**, makine öğrenmesi algoritmalarını şehir içi mobilite ve toplu taşıma optimizasyonuyla birleştiren proaktif bir akıllı şehir (Smart City) simülasyonudur. Proje, sadece geçmiş verileri raporlamakla kalmaz; bireysel yolcu davranışlarını anlık tahmin ederken, istasyonların gelecek yönlü yoğunluk projeksiyonlarını (**Forward-Looking Load Forecasting**) çıkarır.
 
 ---
@@ -18,5 +21,3 @@
 * **Veri Kümesi:** Sistem, sentetik veri motoru tarafından üretilen **100 tekil yolcu profili** ve bu yolcuların geçmiş 100 gün boyunca gerçekleştirdiği **10.000 turnike geçiş sekansını** içeren büyük bir veri matrisi ile eğitilmiştir.
 * **Algoritma:** Scikit-Learn kütüphanesi tabanlı **Random Forest Classifier (Rastgele Orman Sınıflandırıcısı)** algoritması kullanılmıştır. Modelin arkasında tam **150 adet bağımsız karar ağacı (Decision Tree)** yapılandırılmıştır.
 * **Arayüz:** Kullanıcı deneyimini interaktif hale getirmek amacıyla **Streamlit** kütüphanesi tercih edilmiştir ve başlık çapa linkleri CSS enjeksiyonu ile optimize edilmiştir.
-
----
